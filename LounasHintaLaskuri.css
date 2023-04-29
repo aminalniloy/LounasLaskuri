@@ -1,0 +1,25 @@
+body {
+	display: flex;
+	justify-content: center;
+	font-family: 'Arial Narrow', Arial, sans-serif;
+	background-image: url("food.jpg");
+	background-size: cover;
+}
+
+.container {
+    margin: 130px auto;
+	display: flex;
+	flex-direction: column;
+	border: 0.1em solid rgb(175, 205, 23);
+	padding: 5%;
+	background-color: rgb(96, 219, 244);
+}
+
+.title, .input1, .input2, .input3, .output {
+	display: flex;
+	flex-grow: 0.5;
+	background-color: rgb(216, 215, 215);
+	border: 0.2em solid black;
+	align-content: center;
+	padding: 1%;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="LounasHintaLaskuri.css">
+	<title>LounasHintaLaskuri</title>
+</head>
+<body>
+<div class="container">
+	<div class="title">
+	<h2>Lounas Hinta Laskuri</h2>
+	</div>
+<br>
+	<div class="input1">
+	<label for="bill">Laskun määrä euroina: </label>
+	<input type="number" min="1" max="500" id="bill">
+	</div>
+<br>
+	<div class="input2">
+	<label for="people">Henkilömäärä: </label>
+	<input type="number" min="1" max="30" id="people">
+	</div>
+<br>
+	<div class="input3">
+	<label for="tax">Veroprosentti: </label>
+	<input type="number" min="14" max="24" id="tax">
+	</div>
+<br>
+	<div class="output">
+	<button onclick="laske_lounas()">Laske osuudet</button>
+	<div id="shares"></div>
+	</div>
+</div>
+<script src="LounasHintaLaskuri.js"></script>
+</body>
+</html>
